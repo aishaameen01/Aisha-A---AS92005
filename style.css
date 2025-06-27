@@ -51,3 +51,13 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.image-row {
+  display: flex;
+  gap: 10px; /* space between the images */
+}
+
+.image-row img {
+  width: 200px; /* adjust size as needed */
+  height: auto;
+}
