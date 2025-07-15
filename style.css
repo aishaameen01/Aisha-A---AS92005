@@ -52,12 +52,9 @@ body, html {
   color: white;
 }
 
-.image-row {
-  display: flex;
-  gap: 10px; /* space between the images */
+
+h2, {
+  font-size: 32px;
 }
 
-.image-row img {
-  width: 200px; /* adjust size as needed */
-  height: auto;
-}
+
