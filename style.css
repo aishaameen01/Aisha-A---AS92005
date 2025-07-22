@@ -81,3 +81,24 @@ h2, {
   background-color: #003300;
   color: white;
 }
+.causes-section {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.causes-left {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cause-box {
+  padding: 20px;
+  background: #e6f2e6;
+  border-left: 5px solid #2e7d32;
+  border-radius: 5px;
+  color: #2e7d32;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
