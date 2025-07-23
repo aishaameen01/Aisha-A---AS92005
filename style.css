@@ -124,20 +124,7 @@ h2, {
   color: #2e7d32;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-  .action-box {
-  background-color: #e6f2e6;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-left: 5px solid #2e7d32;
-  border-radius: 4px;
-}
-
-.action-box h3 {
-  margin: 0;
-  color: #2e7d32;
-}
-
-.donate-btn {
+.donatebtn {
   padding: 10px 20px;
   background-color: #2e7d32;
   color: white;
@@ -146,8 +133,36 @@ h2, {
   cursor: pointer;
 }
 
-.donate-btn:hover {
+.donatebtn:hover {
   background-color: #256029;
 }
 
+.didyouknow {
+  width: 35%;
+  background: #e6f2e6;
+  padding: 20px;
+  border-left: 5px solid #2e7d32;
+  border-radius: 5px;
+  color: #2e7d32;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.didyouknow h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.didyouknow ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.didyouknow li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
