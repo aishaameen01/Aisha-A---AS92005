@@ -85,6 +85,7 @@ h2, {
   display: flex;
   gap: 30px;
   padding: 40px;
+  align-items: center;
 }
 
 .causes-left {
@@ -137,30 +138,6 @@ h2, {
   background-color: #256029;
 }
 
-.didyouknow {
-  width: 35%;
-  background: #e6f2e6;
-  padding: 20px;
-  border-left: 5px solid #2e7d32;
-  border-radius: 5px;
-  color: #2e7d32;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.didyouknow h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.didyouknow ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.didyouknow li {
-  margin-bottom: 10px;
-}
 
 
 
