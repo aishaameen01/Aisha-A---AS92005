@@ -1,14 +1,14 @@
-.navbar {
+.navbar { /* navigation bar styling */
   background-color: #003300;
   overflow: hidden;
 }
 
-.navbar img {
+.navbar img { /* logo inside the navbar */
   float: left;
   padding: 5px 16px;
 }
 
-.navbar a {
+.navbar a { /* links inside the navbar */
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -17,22 +17,18 @@
   font-size: 17px;
 }
 
-.navbar a:hover {
+.navbar a:hover { /* hover effect on navbar links */
   background-color: white;
   color: black;
 }
 
-.navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-body, html {
+body, html { /* full height layout */
     height: 100%;
 }
 
 
-.bannerimage {
+.bannerimage { /* banner image background with dark overlay */
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.png");
 
   height: 50%;
@@ -43,7 +39,7 @@ body, html {
   position: relative;
 }
 
-.bannertext {
+.bannertext { /* text centered in the banner */
   text-align: center;
   position: absolute;
   top: 50%;
@@ -53,49 +49,49 @@ body, html {
 }
 
 
-h2 {
+h2 { /* heading style */
   font-size: 32px;
 }
 
-.deforestation-info {
+.deforestation-info { /* container for deforestation page content */
     display: flex;
     width: 100%;
     margin-top: 20px;
 }
 
-.paras {
+.paras { /* paragraph section in deforestation content */
     flex: 1;
     padding: 20px;
 }
 
-.images {
+.images { /* image section in deforestation content */
     flex: 1;
     display: flex;
     gap: 10px;
     padding: 20px 20px 0 0;
 }
 
-.footer {
+.footer { /* footer styling */
   text-align: center;
   padding: 20px;
   background-color: #003300;
   color: white;
 }
-.causes-section {
+.causes-section { /* layout for causes page content */
   display: flex;
   gap: 30px;
   padding: 40px;
   align-items: center;
 }
 
-.causes-left {
+.causes-left { /* left column of causes page */
   width: 65%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.causes {
+.causes { /* individual cause box style */
   padding: 20px;
   background: #e6f2e6;
   border-left: 5px solid #2e7d32;
@@ -104,21 +100,21 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.takeaction-section {
+.takeaction-section { /* layout for take action page content */
   display: flex;
   gap: 30px;
   padding: 40px;
   align-items: center;
 }
 
-.takeaction-left {
+.takeaction-left { /* left column of take action page */
   width: 65%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.takeaction {
+.takeaction { /* individual take action box style */
   padding: 20px;
   background: #e6f2e6;
   border-left: 5px solid #2e7d32;
@@ -127,7 +123,7 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.donatebtn {
+.donatebtn { /* donate button styling */
   padding: 10px 20px;
   background-color: #2e7d32;
   color: white;
@@ -136,6 +132,6 @@ h2 {
   cursor: pointer;
 }
 
-.donatebtn:hover {
+.donatebtn:hover { /* hover effect for donate button */
   background-color: #256029;
 }
